@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Com"
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baguet+Script&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <h1> Profil Pribadi</h1>
+    <h1> I'm Monica</h1>
+
+    <p><strong>Nama : </strong> Monica Febrianti</p>
+    <p><strong>NPM :</strong> E1G022032</p>
+    <p><strong>Program Studi :</strong>Teknologi Industri Pertanian</p>
+    <p><strong>Universitas :</strong>Universitas Bengkulu</p>
+    <p><strong>Email :</strong>monicafebrianti188@gmail.com</p>
+    <p><strong>Asal :</strong> Jln Kelurahan bandar, Rt.4, KAUR SELATAN, BENGKULU</p>
+    <p><strong>Hobi :</strong> Jalan-jalan</p>
+    <p><strong>Foto :</strong></p>
+    <img src="MONICA.jpg" width="200" alt="monica"
+    "
+
+    <hr>
+
+    <h2>Jadwal Kuliah Semester</h2>
+
+    <table border="1"
+    <table>
+        <tr>
+            <th>Hari</th>
+            <th>Jam</th>
+            <th>Mata Kuliah</th>
+            <th>Dosen</th>
+            <th>Ruangan</th>
+        </tr>
+        <tr>
+            <td>Senin</th>
+                <td>08.00 - 09.40</td>
+                <td>Komputer & Pemograman</td>
+                <td>Arina Fatharani, S.T.P., M.Sc.</td>
+                <td>Diklat 3 R.20</td>
+            </tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Fitri Yuwita S, S.TP., M.P.</td>
+            <td></td>
+            <tr>
+                <td></th>
+                <td>10.00 - 11.40</td>
+                <td>Rekayasa Proses</td>
+                <td>Drs.Bosman Sidebang, M.P</td>
+                <td>Diklat 3 R.20</td>
+            </tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Wica Elvina, M.Si</td>
+            <td></td>
+            <tr>
+                <td></th>
+                <td>14.00 - 15.40</td>
+                <td>Karya Tulis Ilmiah</td>
+                <td>Prof. Dr. Ir. Yuwana, M.Sc.</td>
+                <td>GB 1 R.4</td>
+            </tr>
+            <tr>
+                <td>Selasa
+                <td>08.00 - 09.40</td>
+                <td>Teknologi Pangan Dan Gizi</td>
+                <td>Ir. Laili Susanti, M.Sc</td>
+                <td>GB 1 R.9</td>
+                </td>
+            </tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Dra.Devi Silsia, M.Si.</td>
+            <td></td>
+            </tr>
+            </tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Ir.Wuri Marsigit,M.App.Sc</td>
+            <td></td> 
+            <tr>
+            <tr>
+                <td></td>
+                <td>12.00 - 09.40</td>
+                <td>Kewirausahaan</td>
+                <td>Ulfa Anis,S.T.P.,M.Sc.</td>
+                <td>GB 1 R.10</td>
+                </td>
+            </tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Selly Ratna Sari,S,Pi.,M.Si</td>
+            <td></td> 
+            </tr>
+            </tr>
+                <td>Rabu</td>
+                <td>08.00 - 09.40</td>
+                <td>Pemasaran</td>
+                <td>Evanila Silvia,S.TP,M.Si</td>
+                <td>Diklat 3 R.20</td>
+            </tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Ika Gusriani,S.TP,MP.</td><td></td>
+            <tr>
+                <td></td>
+                <td>10.00 - 11.40</td>
+                <td>Bahasa Inggris Akademik</td>
+                <td>Ir.Wuri Marsigit,M.App.Sc</td>
+                <td>Diklat 3 R.20</td>
+            </tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Arina Fatharani, S.T.P., M.Sc.</td>
+            <td></td>
+            <tr>
+                <td></td>
+                <td>14.00 - 15.40</td>
+                <td>Analisis Pengambilan Keputusan</td>
+                <td>Ir. Hidayat Koto, M.Sc.</td>
+                <td>GB 1 R.4</td>
+            </tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Ika Gusriani, S.TP., M.P</td><td></td>
+            <tr>
+                <td>Kamis</td>
+                <td>10.00 - 11.00</td>
+                <td>Kimia Industri</td>
+                <td>Drs. Safnil, M.Si.</td>
+                <td>GB 1 R.2</td>
+            </tr>
+            <td></td> 
+            <td></td>
+             <td></td> 
+             <td>Dra. Devi Silsia, M,Si</td>
+            <td></td>
+            <tr>
+            </tr>
+            
+                <td>Jumat</td>
+                <td>08.00 - 09.40</td>
+                <td>Teknologi Hasil Perkebunan</td>
+                <td>Dr. Yazid Ismi Intara., S.P., M.Si</td>
+                <td>GB 1 R.9</td>
+            </tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Sri Wulandari., S.T.P., M.Sc</td>
+            <td></td>
+            <tr>
+                <td></td>
+                <td>10.00 - 11.40</td>
+                <td>Sanitasi Industri</td>
+                <td>Dra. Devi Silsia, M,Si</td>
+                <td>Diklat R.20</td>
+            </tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Drs. Safnil, M.Si</td><td></td>
+            <tr>
