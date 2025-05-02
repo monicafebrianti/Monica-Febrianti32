@@ -1,0 +1,122 @@
+nav {
+    background-color: #00b386;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #004d40;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    color: #00b386;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+    margin: 8px 0;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Tambahan supaya mirip kartu profil */
+.profil {
+    background: white;
+    width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.profil p {
+    text-align: left;
+    padding-left: 10px;
+}
+
+.profil h1 {
+    text-align: left;
+    padding-left: 10px;
+}
+
+.profil img {
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Style untuk halaman Jadwal */
+.jadwal {
+    max-width: 900px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.jadwal h2 {
+    text-align: center;
+    color: #00b386;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+caption {
+    caption-side: top;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #333;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px 15px;
+    text-align: center;
+}
+
+th {
+    background-color: #00b386;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #e0f2f1;
+}
