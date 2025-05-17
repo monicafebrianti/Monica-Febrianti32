@@ -1,48 +1,188 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #fff8f0;
-  }
-  
-  nav {
-    background-color: #c0392b;
-    padding: 15px;
-    text-align: center;
-  }
-  
-  nav a {
-    color: white;
-    margin: 0 20px;
-    text-decoration: none;
-    font-weight: bold;
-  }
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    background: linear-gradient(to bottom right, #ffe5b4, #ffd6a5); /* gradasi orange muda */
+}
 
-  /* Login box styling */
-  .login-box {
-    max-width: 300px;
-    margin: 100px auto;
-    padding: 30px;
-    background-color: white;
-    box-shadow: 0 0 10px #ccc;
-    border-radius: 8px;
+.navbar {
+    background: linear-gradient(to right, #ffb347, #ffcc80); /* gradasi orange muda */
+    padding: 1rem;
     text-align: center;
-  }
-  
-  input, button {
-    display: block;
-    width: 90%;
-    margin: 10px auto;
-    padding: 10px;
-  }
-  
-  button {
-    background-color: #c0392b;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.navbar ul li a:hover {
+    color: #ff7f50; /* orange gelap */
+}
+
+.hero {
+    background: url('https://source.unsplash.com/1600x900/?tofu,food') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+}
+
+.hero .overlay {
+    background: rgba(255, 165, 0, 0.5); /* transparan oranye */
+    color: white;
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+.hero .cta {
+    display: inline-block;
+    margin-top: 1.5rem;
+    padding: 0.75rem 1.5rem;
+    background: linear-gradient(to right, #ffb347, #ffcc80);
+    color: white;
+    font-weight: 600;
+    border-radius: 30px;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.hero .cta:hover {
+    background: linear-gradient(to right, #ffa500, #ffb347);
+    transform: translateY(-2px);
+}
+
+.intro, section {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.produk-grid, .galeri-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.galeri-grid .galeri-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fffaf3;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.galeri-grid img,
+.product-card img {
+    width: 100%;
+    max-width: 160px;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.galeri-grid img:hover,
+.product-card img:hover {
+    transform: scale(1.03);
+}
+
+.galeri-grid .description {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: #555;
+    text-align: center;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    transition: transform 0.3s;
+    background: #fffaf3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    background: linear-gradient(to right, #ffcc80, #ffe5b4); /* gradasi orange muda */
+    font-size: 0.9rem;
+}
+
+/* Tambahan untuk form kontak */
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+form input,
+form textarea {
+    padding: 0.75rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    width: 200px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: border-color 0.3s ease;
+}
+
+form textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+form input:focus,
+form textarea:focus {
+    border-color: #ffa500;
+    outline: none;
+}
+
+form button,
+form input[type="submit"] {
+    background: linear-gradient(to right, #ffb347, #ffcc80);
     color: white;
     border: none;
+    border-radius: 30px;
+    padding: 0.75rem 1.5rem;
+    font-weight: bold;
     cursor: pointer;
-  }
-  
-  section {
-    padding: 20px;
-  }
-  
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+form button:hover,
+form input[type="submit"]:hover {
+    background: linear-gradient(to right, #ffa500, #ffb347);
+    transform: translateY(-2px);
+}

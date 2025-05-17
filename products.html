@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>UMKM Tahu Mulya - Produk</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="script.js" defer></script>
+</head>
+<body>
+<nav class="navbar" data-aos="fade-down" data-aos-duration="700">
+    <ul>
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="about.html">Tentang</a></li>
+        <li><a href="products.html">Produk</a></li>
+        <li><a href="gallery.html">Galeri</a></li>
+        <li><a href="contact.html">Kontak</a></li>
+    </ul>
+</nav>
+
+<section data-aos="fade-up" data-aos-duration="1000">
+    <h2>Produk Kami</h2>
+    <div class="produk-grid">
+        <div class="product-card" data-aos="fade-up" data-aos-duration="800">
+            <img src="tahu goreng.jpg" alt="Produk 1" />
+            <h3>Produk 1</h3>
+            <p>Produk Tahu Goreng.</p>
+        </div>
+        <div class="product-card" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+            <img src="th.jpg" alt="Produk 2" />
+            <h3>Produk 2</h3>
+            <p>Produk Tahu Putih.</p>
+        </div>
+    </div>
+</section>
+
+<footer data-aos="fade-up" data-aos-duration="700" data-aos-delay="400">
+    <p>&copy; 2025 UMKM Tahu Mulya</p>
+</footer>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init({
+        once: true,
+        duration: 800,
+    });
+</script>
+</body>
+</html>

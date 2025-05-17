@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>UMKM Tahu Mulya - Kontak</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="script.js" defer></script>
+</head>
+<body>
+<nav class="navbar" data-aos="fade-down" data-aos-duration="700">
+    <ul>
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="about.html">Tentang</a></li>
+        <li><a href="products.html">Produk</a></li>
+        <li><a href="gallery.html">Galeri</a></li>
+        <li><a href="contact.html">Kontak</a></li>
+    </ul>
+</nav>
+
+<section data-aos="fade-up" data-aos-duration="1000">
+    <h2>Kontak</h2>
+    <p>Email: info@tahumulya.com</p>
+    <p>WhatsApp: +62 812-3456-7890</p>
+    <form id="contact-form">
+        <input type="text" placeholder="Nama" required />
+        <input type="email" placeholder="Email" required />
+        <textarea placeholder="Pesan" required></textarea>
+        <button type="submit">Kirim</button>
+    </form>
+</section>
+
+<footer data-aos="fade-up" data-aos-duration="700" data-aos-delay="400">
+    <p>&copy; 2025 UMKM Tahu Mulya</p>
+</footer>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init({
+        once: true,
+        duration: 800,
+    });
+
+    document.getElementById('contact-form').addEventListener('submit', function(event) {
+        event.preventDefault();
+        alert('Pesan Anda telah dikirim!');
+    });
+</script>
+</body>
+</html>
