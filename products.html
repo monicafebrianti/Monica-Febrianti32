@@ -1,51 +1,108 @@
+<!-- FILE: products.html -->
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>UMKM Tahu Mulya - Produk</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="style.css" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <script src="script.js" defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Produk Kami - Tahu Mulya</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="products-page">
+  <div class="sidebar">
+    <h2>UMKM Tahu Mulya</h2>
+    <nav>
+      <a href="index.html">Beranda</a>
+      <a href="about.html">Tentang</a>
+      <a href="products.html">Produk</a>
+      <a href="gallery.html">Galeri</a>
+      <a href="contact.html">Kontak</a>
+      <a href="distribusi.html">Distribusi</a>
+    </nav>
+  </div>
+
+  <div class="search-bar-container">
+    <input type="text" id="searchInput" placeholder="Cari di halaman..." />
+  </div>
+
+  <div class="container produk-grid animated-item">
+    <div class="product-card">
+      <h2>Tahu Putih</h2>
+      <img src="th.jpg" alt="Tahu Putih">
+      <h3>Rp75.000/Papan</h3>
+      <p>Tahu segar yang diproses secara tradisional tanpa bahan pengawet.</p>
+      <a href="#" class="button">Pesan Sekarang</a>
+    </div>
+
+    <div class="product-card">
+      <h2>Tahu Goreng</h2>
+      <img src="tahu goreng.jpg" alt="Tahu Goreng">
+      <h3>Rp75.000/Papan</h3>
+      <p>Tahu goreng renyah siap saji, cocok untuk camilan atau lauk makan.</p>
+      <a href="#" class="button">Pesan Sekarang</a>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 UMKM Tahu Mulya. All rights reserved.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+<!-- FILE: about.html -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tentang Kami - Tahu Mulya</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<nav class="navbar" data-aos="fade-down" data-aos-duration="700">
-    <ul>
-        <li><a href="index.html">Beranda</a></li>
-        <li><a href="about.html">Tentang</a></li>
-        <li><a href="products.html">Produk</a></li>
-        <li><a href="gallery.html">Galeri</a></li>
-        <li><a href="contact.html">Kontak</a></li>
-    </ul>
-</nav>
+  <div class="sidebar">
+    <h2>UMKM Tahu Mulya</h2>
+    <nav>
+      <a href="index.html">Beranda</a>
+      <a href="about.html">Tentang</a>
+      <a href="products.html">Produk</a>
+      <a href="gallery.html">Galeri</a>
+      <a href="contact.html">Kontak</a>
+      <a href="distribusi.html">Distribusi</a>
+    </nav>
+  </div>
 
-<section data-aos="fade-up" data-aos-duration="1000">
-    <h2>Produk Kami</h2>
-    <div class="produk-grid">
-        <div class="product-card" data-aos="fade-up" data-aos-duration="800">
-            <img src="tahu goreng.jpg" alt="Produk 1" />
-            <h3>Produk 1</h3>
-            <p>Produk Tahu Goreng.</p>
-        </div>
-        <div class="product-card" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
-            <img src="th.jpg" alt="Produk 2" />
-            <h3>Produk 2</h3>
-            <p>Produk Tahu Putih.</p>
-        </div>
+  <div class="search-bar-container">
+   
+
+    <input type="text" id="searchInput" placeholder="Cari di halaman..." />
+    <ul id="searchResults" class="search-results"></ul>
+
+  </div>
+
+  <div class="main-content">
+    <div class="container">
+      <h1>Tentang Kami</h1>
+      <p>Tahu Mulya adalah UMKM yang bergerak di bidang produksi tahu sejak tahun 1991. Kami berdedikasi menyediakan produk berkualitas tinggi, sehat, dan aman untuk dikonsumsi oleh masyarakat.</p>
+      <h2>Profil Unit Usaha</h2>
+      <ul>
+        <li><strong>Tahun berdiri:</strong> 1991</li>
+        <li><strong>Pemilik :</strong> Alm. Sukman Ali</li>
+        <li><strong>Penerus sekarang :</strong> Pak Dandi</li>
+        <li><strong>Alamat: </strong>Jl Merapi 13 No 14, Kebun Tebeng, Kec Ratu Agung, Kota Bengkulu</li>
+      </ul>
+      <h3>Visi</h3>
+      <p>Menjadi pelopor dalam industri tahu lokal yang mengutamakan kualitas, kesehatan, dan keberlanjutan.</p>
+      <h4>Misi</h4>
+      <p>Tahu Mulya memiliki misi untuk menyediakan tahu berkualitas tinggi yang dibuat dari bahan baku alami.</p>
     </div>
-</section>
 
-<footer data-aos="fade-up" data-aos-duration="700" data-aos-delay="400">
-    <p>&copy; 2025 UMKM Tahu Mulya</p>
-</footer>
+    <footer>
+      &copy; 2025 UMKM Tahu Mulya. All rights reserved.
+    </footer>
 
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-    AOS.init({
-        once: true,
-        duration: 800,
-    });
-</script>
+
+  <script src="search-index.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>

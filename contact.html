@@ -1,52 +1,67 @@
+<!-- FILE: contact.html -->
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>UMKM Tahu Mulya - Kontak</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="style.css" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <script src="script.js" defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontak Kami - Tahu Mulya</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
-<nav class="navbar" data-aos="fade-down" data-aos-duration="700">
-    <ul>
-        <li><a href="index.html">Beranda</a></li>
-        <li><a href="about.html">Tentang</a></li>
-        <li><a href="products.html">Produk</a></li>
-        <li><a href="gallery.html">Galeri</a></li>
-        <li><a href="contact.html">Kontak</a></li>
-    </ul>
-</nav>
+<body class="contact-page">
+  <div class="sidebar">
+    <h2>UMKM Tahu Mulya</h2>
+    <nav>
+      <a href="index.html">Beranda</a>
+      <a href="about.html">Tentang</a>
+      <a href="products.html">Produk</a>
+      <a href="gallery.html">Galeri</a>
+      <a href="contact.html">Kontak</a>
+      <a href="distribusi.html">Distribusi</a>
+    </nav>
+  </div>
 
-<section data-aos="fade-up" data-aos-duration="1000">
-    <h2>Kontak</h2>
-    <p>Email: info@tahumulya.com</p>
-    <p>WhatsApp: +62 812-3456-7890</p>
-    <form id="contact-form">
-        <input type="text" placeholder="Nama" required />
-        <input type="email" placeholder="Email" required />
-        <textarea placeholder="Pesan" required></textarea>
-        <button type="submit">Kirim</button>
-    </form>
-</section>
 
-<footer data-aos="fade-up" data-aos-duration="700" data-aos-delay="400">
-    <p>&copy; 2025 UMKM Tahu Mulya</p>
-</footer>
+  <!-- Search Bar -->
+  <div class="search-bar-container">
+    <input type="text" id="searchInput" placeholder="Cari di halaman..." />
+    <ul id="searchResults" class="search-results"></ul>
 
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-    AOS.init({
-        once: true,
-        duration: 800,
-    });
+  </div>
 
-    document.getElementById('contact-form').addEventListener('submit', function(event) {
-        event.preventDefault();
-        alert('Pesan Anda telah dikirim!');
-    });
-</script>
+
+  <div class="main-content">
+    <header class="animated-item">
+      <h1>Hubungi Kami</h1>
+    </header>
+
+    <div class="container animated-item">
+      <p>Jika Anda memiliki pertanyaan atau ingin memesan produk kami, silakan hubungi melalui kontak di bawah ini:</p>
+      <ul>
+        <li><strong>Alamat:</strong> Jl Merapi 13 No 14, Kebun Tebeng, Kec Ratu Agung, Kota Bengkulu</li>
+        <li><strong>Telepon:</strong> 0812-3456-7890</li>
+        <li><strong>Email:</strong> tahumulya@example.com</li>
+      </ul>
+    </div>
+
+    <div class="container animated-item">
+      <h2>Formulir Saran & Masukan</h2>
+      <form id="contact-form" action="#" method="post">
+        <input type="text" name="nama" placeholder="Nama Anda" required>
+        <input type="email" name="email" placeholder="Email Anda" required>
+        <textarea name="pesan" placeholder="Tulis pesan atau saran Anda di sini..." required></textarea>
+        <input type="submit" value="Kirim Pesan">
+      </form>
+    </div>
+
+    <footer class="animated-item">
+      &copy; 2025 UMKM Tahu Mulya. All rights reserved.
+    </footer>
+
+
+ 
+  <script src="search-index.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
+
+

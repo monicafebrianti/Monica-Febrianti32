@@ -1,48 +1,47 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>UMKM Tahu Mulya - Beranda</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="style.css" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <script src="script.js" defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UMKM Tahu Mulya</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<nav class="navbar" data-aos="fade-down" data-aos-duration="700">
-    <ul>
-        <li><a href="index.html">Beranda</a></li>
-        <li><a href="about.html">Tentang</a></li>
-        <li><a href="products.html">Produk</a></li>
-        <li><a href="gallery.html">Galeri</a></li>
-        <li><a href="contact.html">Kontak</a></li>
-    </ul>
-</nav>
+  <div class="sidebar">
+    <h2>UMKM Tahu Mulya</h2>
+    <nav>
+      <a href="index.html">Beranda</a>
+      <a href="about.html">Tentang</a>
+      <a href="products.html">Produk</a>
+      <a href="gallery.html">Galeri</a>
+      <a href="contact.html">Kontak</a>
+      <a href="distribusi.html">Distribusi</a>
+    </nav>
+  </div>
 
-<header class="hero" data-aos="fade-up" data-aos-duration="1000">
-    <div class="overlay">
-        <h1>UMKM Tahu Mulya</h1>
-        <p class="tagline">Produk Olahan Tahu Berkualitas dari Desa</p>
-        <a href="products.html" class="cta">Lihat Produk</a>
+  <!-- === SEARCH BAR === -->
+  <div class="search-bar-container">
+    <input type="text" id="searchInput" placeholder="Cari di halaman..." />
+    <ul id="searchResults" class="search-results"></ul>
+  </div>
+
+  <div class="main-content">
+    <header>
+      <h1>Selamat Datang di Tahu Mulya</h1>
+      <p>Rasakan gurihnya tahu berkualitas dari tangan UMKM lokal</p>
+      <a href="products.html" class="button">Lihat Produk</a>
+    </header>
+
+    <div class="container">
+      <h2>Kenapa Memilih Kami?</h2>
+      <p>Kami menggunakan bahan-bahan segar dan diproduksi secara higienis setiap hari. Kami berkomitmen memberikan kualitas terbaik bagi pelanggan kami.</p>
     </div>
-</header>
 
-<section class="intro" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
-    <h2>Selamat Datang di UMKM Tahu Mulya</h2>
-    <p>Kami berkomitmen menghadirkan produk tahu berkualitas dengan proses alami dan ramah lingkungan.</p>
-</section>
+    <footer>
+      &copy; 2025 UMKM Tahu Mulya. All rights reserved.
+    </footer>
 
-<footer data-aos="fade-up" data-aos-duration="700" data-aos-delay="400">
-    <p>&copy; 2025 UMKM Tahu Mulya</p>
-</footer>
-
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-    AOS.init({
-        once: true,
-        duration: 800,
-    });
-</script>
+  <script src="search-index.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
